@@ -1,3 +1,4 @@
+console.log(123);
 const socket = io();
 // 监听与服务端的连接
 socket.on('connect', () => {
